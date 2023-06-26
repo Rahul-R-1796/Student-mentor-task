@@ -7,8 +7,8 @@ const app = express();
 const PORT = 3000;
 
 // Connect to MongoDB
- mongoose.connect('mongodb+srv://student-mentor:student-mentor@student-mentor-task.lxjajla.mongodb.net/?retryWrites=true&w=majority', {
-// mongoose.connect('mongodb://0.0.0.0:27017/mentor-student-assignment', {
+// mongoose.connect('mongodb+srv://student-mentor:student-mentor@student-mentor-task.lxjajla.mongodb.net/?retryWrites=true&w=majority', {
+ mongoose.connect('mongodb://0.0.0.0:27017/mentor-student-assignment', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
